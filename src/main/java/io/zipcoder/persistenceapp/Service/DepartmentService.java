@@ -1,5 +1,7 @@
 package io.zipcoder.persistenceapp.Service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -7,7 +9,6 @@ import io.zipcoder.persistenceapp.Repositories.DepartmentRepository;
 import io.zipcoder.persistenceapp.Repositories.EmployeeRepository;
 import io.zipcoder.persistenceapp.models.Department;
 import io.zipcoder.persistenceapp.models.Employee;
-import java.util.List;
 
 @Service
 public class DepartmentService {
