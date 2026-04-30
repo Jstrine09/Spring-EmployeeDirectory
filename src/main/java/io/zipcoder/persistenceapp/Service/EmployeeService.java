@@ -18,7 +18,7 @@ public class EmployeeService {
     private EmployeeRepository repository;
 
     @Autowired
-private DepartmentRepository departmentRepository;
+    private DepartmentRepository departmentRepository;
 
     public Employee createEmployee(Employee employee) {
         return repository.save(employee);
